@@ -25,4 +25,22 @@ Bu proje, kullanıcıların çeşitli yemek tariflerini bulabileceği, paylaşab
 
 6. **Profili Sil**(Furkan KARATEKİN)
    - Kullanıcıların hesaplarını kalıcı olarak silebilmelerini sağlayan bir sistem.
+   
+7. **Tarifleri Listele**(Gamze BACAK)
+   - Tüm mevcut tariflerin listelendiği bir sayfa.
+
+8. **Tarifleri Kategorilere Göre Listele**(Gamze BACAK)
+   - Tarifleri belirli kategorilere göre filtreleyen bir sistem.
+
+9. **Tarifleri Ara (Filtreleme)**(Gamze BACAK)
+   - Kullanıcıların arama terimlerine göre tarifleri filtreleyebilmelerini sağlayan bir arama motoru.
+
+10. **Tarifi Güncelle**(Gamze BACAK)
+    - Kullanıcıların ekledikleri tariflerin bilgilerini güncelleyebilmelerini sağlayan bir sistem.
+
+11. **Tarifi Sil**(Gamze BACAK)
+    - Kullanıcıların kendi ekledikleri tarifleri silebilmelerini sağlayan bir sistem.
+
+12. **Tarif Ekle**(Gamze BACAK)
+    - Kullanıcıların yeni tarifler ekleyebilmelerini sağlayan bir arayüz.
 
