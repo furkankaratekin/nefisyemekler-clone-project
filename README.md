@@ -61,4 +61,22 @@ Bu proje, kullanıcıların çeşitli yemek tariflerini bulabileceği, paylaşab
 
 18. **Menüler**(Alperen Aktuğ)
     - Kullanıcıların belirli kriterlere göre menüler oluşturabilmelerini sağlayan bir sistem.
+      
+19. **Bugün Ne Hazırlasam?**(Hakan IŞIK)
+    - Kullanıcılara rastgele tarif önerileri sunan bir sistem.
+
+20. **Popüler Menüler**(Hakan IŞIK)
+    - En popüler ve beğenilen tariflerden oluşan menülerin listelendiği bir alan.
+
+21. **Tarif Defterim**(Hakan IŞIK)
+    - Kullanıcıların favori tariflerini görüntüleyebildiği bir sayfa.
+
+22. **Tarifi Yorum Yap**(Hakan IŞIK)
+    - Kullanıcıların tariflere yorum yapabilmelerini sağlayan bir sistem.
+
+23. **Tarifi Yapılan Yorumu Güncelle**(Hakan IŞIK)
+    - Kullanıcıların kendi yaptıkları yorumları güncelleyebilmelerini sağlayan bir sistem.
+
+24. **Tarife Yaptığın Yorumu Sil**(Hakan IŞIK)
+    - Kullanıcıların kendi yaptıkları yorumları silebilmelerini sağlayan bir sistem.
 
