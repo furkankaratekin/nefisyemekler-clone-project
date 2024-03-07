@@ -43,4 +43,22 @@ Bu proje, kullanıcıların çeşitli yemek tariflerini bulabileceği, paylaşab
 
 12. **Tarif Ekle**(Gamze BACAK)
     - Kullanıcıların yeni tarifler ekleyebilmelerini sağlayan bir arayüz.
+   
+13. **Tarifin Kalorisi**(Alperen Aktuğ)
+    - Tariflerin kalori değerlerini hesaplayan bir sistem.
+
+14. **Tarifin Hazırlanışı**(Alperen Aktuğ)
+    - Tariflerin hazırlanışını gösteren bir alan.
+
+15. **Tarifin Videolu Hazırlanışı**(Alperen Aktuğ)
+    - Tariflerin videolu hazırlanışını gösteren bir alan.
+
+16. **Deftere Ekle (Favoriler Ekle)**(Alperen Aktuğ)
+    - Kullanıcıların tarifleri favorilere ekleyebilmelerini sağlayan bir sistem.
+
+17. **Defterden Kaldır (Favorilerden Kaldır)**(Alperen Aktuğ)
+    - Kullanıcıların favori tarifleri defterden kaldırabilmelerini sağlayan bir sistem.
+
+18. **Menüler**(Alperen Aktuğ)
+    - Kullanıcıların belirli kriterlere göre menüler oluşturabilmelerini sağlayan bir sistem.
 
