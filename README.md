@@ -6,6 +6,11 @@ Bu proje, kullanıcıların yemek tariflerini bulabileceği, paylaşabileceği v
 
 Bu proje, kullanıcıların çeşitli yemek tariflerini bulabileceği, paylaşabileceği ve favorilere ekleyebileceği bir platform oluşturmayı hedeflemektedir. Kullanıcılar, tarifleri kategorilere göre listeleyebilir, arayabilir ve kendi tariflerini ekleyebilirler. Ayrıca, kullanıcılar favori tariflerini bir defterde toplayabilir ve belirli kriterlere göre menüler oluşturabilirler.
 
+## Projenin Kategorisi: Yemek
+## Referans Uygulama: Nefis Yemek Tarifleri
+## Grup Adı: The Mentalist
+## Proje Ekibi: Furkan Karatekin, Gamze Bacak, Alperen Aktuğ, Hakan Işık
+
 ## Gereksinim Analizi
 
 1. **Giriş Yap**(Furkan KARATEKİN)
@@ -35,14 +40,14 @@ Bu proje, kullanıcıların çeşitli yemek tariflerini bulabileceği, paylaşab
 9. **Tarifleri Ara (Filtreleme)**(Gamze BACAK)
    - Kullanıcıların arama terimlerine göre tarifleri filtreleyebilmelerini sağlayan bir arama motoru.
 
-10. **Tarifi Güncelle**(Gamze BACAK)
-    - Kullanıcıların ekledikleri tariflerin bilgilerini güncelleyebilmelerini sağlayan bir sistem.
+10. **Tarif Ekle**(Gamze BACAK)
+    - Kullanıcıların yeni tarifler ekleyebilmelerini sağlayan bir arayüz.
 
 11. **Tarifi Sil**(Gamze BACAK)
     - Kullanıcıların kendi ekledikleri tarifleri silebilmelerini sağlayan bir sistem.
 
-12. **Tarif Ekle**(Gamze BACAK)
-    - Kullanıcıların yeni tarifler ekleyebilmelerini sağlayan bir arayüz.
+12. **Tarif Güncelle**(Gamze BACAK)
+    - Kullanıcıların ekledikleri tariflerin bilgilerini güncelleyebilmelerini sağlayan bir sistem.
    
 13. **Tarifin Kalorisi**(Alperen Aktuğ)
     - Tariflerin kalori değerlerini hesaplayan bir sistem.
