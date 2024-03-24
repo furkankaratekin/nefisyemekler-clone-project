@@ -76,10 +76,10 @@ Bu proje, kullanıcıların çeşitli yemek tariflerini bulabileceği, paylaşab
 21. **Tarif Defterim**(Hakan IŞIK)
     - Kullanıcıların favori tariflerini görüntüleyebildiği bir sayfa.
 
-22. **Tarifi Yorum Yap**(Hakan IŞIK)
+22. **Tarife Yorum Yap**(Hakan IŞIK)
     - Kullanıcıların tariflere yorum yapabilmelerini sağlayan bir sistem.
 
-23. **Tarifi Yapılan Yorumu Güncelle**(Hakan IŞIK)
+23. **Tarife Yapılan Yorumu Güncelle**(Hakan IŞIK)
     - Kullanıcıların kendi yaptıkları yorumları güncelleyebilmelerini sağlayan bir sistem.
 
 24. **Tarife Yaptığın Yorumu Sil**(Hakan IŞIK)
