@@ -12,7 +12,7 @@ Bu proje, kullanıcıların çeşitli yemek tariflerini bulabileceği, paylaşab
 ## Proje Ekibi: Furkan Karatekin, Gamze Bacak, Alperen Aktuğ, Hakan Işık
 
 
-1. [Proje Plani](https://github.com/umutyenidil/nonflash/blob/master/ProjePlani.md))
+1. [Proje Plani](https://github.com/furkankaratekin/nefisyemekler-clone-project/blob/main/Proje%20Plan%C4%B1.pdf))
 
 ## Gereksinim Analizi
 
