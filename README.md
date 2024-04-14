@@ -13,6 +13,7 @@ Bu proje, kullanıcıların çeşitli yemek tariflerini bulabileceği, paylaşab
 
 
 1. [Proje Plani](https://github.com/furkankaratekin/nefisyemekler-clone-project/blob/main/Proje%20Plan%C4%B1.pdf))
+2. [Gereksinim Analizi](https://github.com/furkankaratekin/nefisyemekler-clone-project/blob/main/Gerksinim%20Analizi.md)
 
 ## Gereksinim Analizi
 
