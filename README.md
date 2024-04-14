@@ -11,6 +11,9 @@ Bu proje, kullanıcıların çeşitli yemek tariflerini bulabileceği, paylaşab
 ## Grup Adı: The Mentalist
 ## Proje Ekibi: Furkan Karatekin, Gamze Bacak, Alperen Aktuğ, Hakan Işık
 
+
+1. [Proje Plani](https://github.com/umutyenidil/nonflash/blob/master/ProjePlani.md))
+
 ## Gereksinim Analizi
 
 1. **Giriş Yap**(Furkan KARATEKİN)
