@@ -14,7 +14,8 @@ Bu proje, kullanıcıların çeşitli yemek tariflerini bulabileceği, paylaşab
 
 1. [Proje Plani](https://github.com/furkankaratekin/nefisyemekler-clone-project/blob/main/Proje%20Plan%C4%B1.pdf)
 2. [Gereksinim Analizi](https://github.com/furkankaratekin/nefisyemekler-clone-project/blob/main/Gerksinim%20Analizi.md)
-3. [Veritabani Diyagrami](https://github.com/furkankaratekin/nefisyemekler-clone-project/blob/main/Veritaban%C4%B1Diyagram%C4%B1.jpeg) 
+3. [Veritabani Diyagrami](https://github.com/furkankaratekin/nefisyemekler-clone-project/blob/main/Veritaban%C4%B1Diyagram%C4%B1.jpeg)
+4. [Durum Diyagrami](https://github.com/furkankaratekin/nefisyemekler-clone-project/blob/main/UseCaseDiyagram2.pdf) 
 
 
   
