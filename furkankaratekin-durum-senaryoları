@@ -1,0 +1,211 @@
+Bu örnek fikir vermesi açısından kısmi bir örnektir. Tüm senaryoları içermez.
+Senaryo ID UC1 (Furkan Karatekin)
+Senaryo Adı Giriş Yap
+Ana Aktör Kullanıcı
+Ön Koşullar Kullanıcı sisteme kayıtlı olmalı
+Hedef Şartlar  Kullanıcı giriş sayfasına erişir.
+ Kullanıcı, kullanıcı adı ve şifresi ile 
+giriş yapar.
+ Sistem, kullanıcı bilgilerini 
+doğrular ve kullanıcıyı anasayfaya 
+yönlendirir.
+Ana Başarısı Senaryosu
+1. Kullanıcı, sistemin anasayfasını açar.
+2. Kullanıcı, giriş yap butonuna tıklar.
+3. Kullanıcı, kullanıcı adı ve şifresini girer.
+4. Sistem, kullanıcı bilgilerini doğrular.
+5. Kullanıcı, sistemin anasayfasına yönlendirilir ve kullanıcıya özel içerikler 
+sunulur.
+Genişlemeler
+3a: Kullanıcı hatalı kullanıcı adı veya şifre girer.
+Kullanıcıya hatalı giriş uyarısı gösterilir.
+Kullanıcı, kullanıcı adı ve şifresini tekrar girer.
+Eğer kullanıcı doğru bilgileri girerse, sisteme başarılı bir şekilde giriş yapar.
+3b: Kullanıcı şifresini unutmuşsa.
+Kullanıcı, şifremi unuttum linkine tıklar.
+Kullanıcıya, şifre sıfırlama talimatlarının gönderileceği e-posta adresini girmesi istenir.
+Bu örnek fikir vermesi açısından kısmi bir örnektir. Tüm senaryoları içermez.
+Kullanıcı, e-posta adresini girer ve şifre sıfırlama talimatlarını içeren bir e-posta alır.
+Kullanıcı, e-postada yer alan talimatları takip ederek yeni bir şifre belirler ve sisteme 
+giriş yapabilir.
+4a: Sistem bakım modundaysa.
+Kullanıcıya sistem bakım modunda olduğuna dair bir bilgilendirme mesajı gösterilir.
+Kullanıcı, sistem tekrar çevrimiçi olduğunda giriş yapmayı deneyebilir.
+Bu senaryo, kullanıcıların sisteme giriş yapma sürecini detaylı bir şekilde ele almakta 
+ve olası hatalar veya özel durumlar için genişleme senaryoları sunmaktadır.
+Bu örnek fikir vermesi açısından kısmi bir örnektir. Tüm senaryoları içermez.
+Senaryo ID UC2 (Furkan Karatekin)
+Senaryo Adı Çıkış Yap
+Ana Aktör Kullanıcı
+Ön Koşullar Kullanıcı sisteme başarılı bir şekilde giriş 
+yapmşı olmalı
+Hedef Şartlar  Kullanıcı çıkış yap butonuna tıklar.
+ Sistem, kullanıcıyı çıkış yapma 
+işlemi için onay ister.
+ Kullanıcı çıkış yapmayı onaylar.
+ Sistem, kullanıcıyı çıkış yaptırır ve 
+giriş sayfasına yönlendirir.
+Ana Başarısı Senaryosu
+1. Kullanıcı, sistemin anasayfasında çıkış yap butonunu arar.
+2. Kullanıcı, çıkış yap butonuna tıklar.
+3. Sistem, kullanıcıdan çıkış yapma işlemini onaylamasını ister.
+4. Kullanıcı, çıkış yapmayı onaylar.
+5. Sistem, kullanıcıyı çıkış yapar ve giriş sayfasına yönlendirir.
+Genişlemeler
+3a: Kullanıcı çıkış yapmayı yanlışlıkla seçerse.
+Kullanıcı, çıkış yapma işlemini iptal edebilir.
+Kullanıcı, iptal etme seçeneğini seçerse, sistem kullanıcıyı anasayfada tutar ve çıkış 
+yapmaz.
+4a: Sistemde teknik bir sorun varsa.
+Sistem, kullanıcıya teknik bir sorun olduğunu ve çıkış yapmanın geçici olarak mümkün 
+olmadığını bildirir.
+Bu örnek fikir vermesi açısından kısmi bir örnektir. Tüm senaryoları içermez.
+Kullanıcı, daha sonra tekrar çıkış yapmayı deneyebilir veya destek için sistem 
+yöneticisi ile iletişime geçebilir.
+Bu örnek fikir vermesi açısından kısmi bir örnektir. Tüm senaryoları içermez.
+Senaryo ID UC3 (Furkan Karatekin)
+Senaryo Adı Üye Ol
+Ana Aktör Yeni Kullanıcı
+Ön Koşullar Kullanıcı platforma daha önce üye 
+olmamış olmalı
+Hedef Şartlar  Yeni kullanıcı kayıt sayfasına erişir.
+ Yeni kullanıcı gerekli bilgileri 
+doldurur (ad, soyad, e-posta, 
+kullanıcı adı, şifre).
+ Yeni kullanıcı, kayıt olmayı 
+tamamlar ve sisteme başarılı bir 
+şekilde üye olur.
+ Sistem, yeni kullanıcıya hoş 
+geldiniz e-postası gönderir.
+Ana Başarısı Senaryosu
+1. Yeni Kullanıcı, platformun anasayfasını açar.
+2. Yeni Kullanıcı, üye ol butonuna tıklar.
+3. Yeni Kullanıcı, kayıt formuna yönlendirilir.
+4. Yeni Kullanıcı, ad, soyad, e-posta, kullanıcı adı, ve şifre dahil olmak üzere 
+gerekli tüm bilgileri doldurur.
+5. Yeni Kullanıcı, kayıt olmayı tamamlamak için kayıt ol butonuna tıklar.
+6. Sistem, girilen bilgileri doğrular ve kullanıcı hesabını oluşturur.
+7. Sistem, yeni kullanıcıya hoş geldiniz ve hesap aktivasyonu gerektiğini belirten 
+bir e-posta gönderir.
+8. Yeni Kullanıcı, e-postadaki aktivasyon linkine tıklar ve hesabını aktive eder.
+9. Yeni Kullanıcı, platforma başarılı bir şekilde üye olur ve anasayfaya 
+yönlendirilir.
+Genişlemeler
+4a: Yeni Kullanıcı, gerekli alanları eksik veya hatalı doldurur.
+Bu örnek fikir vermesi açısından kısmi bir örnektir. Tüm senaryoları içermez.
+Sistem, eksik veya hatalı bilgileri belirten bir uyarı mesajı gösterir.
+Yeni Kullanıcı, hatalı veya eksik alanları düzeltir ve kayıt işlemine devam eder.
+6a: Seçilen kullanıcı adı zaten başka bir hesap tarafından kullanılıyorsa.
+Sistem, kullanıcı adının mevcut olduğunu ve başka bir kullanıcı adı seçilmesi 
+gerektiğini bildirir.
+Yeni Kullanıcı, başka bir kullanıcı adı seçer ve formu yeniden gönderir.
+6b: Girilen e-posta adresi zaten bir hesapla ilişkilendirilmişse.
+Sistem, e-posta adresinin zaten kullanımda olduğunu belirtir.
+Yeni Kullanıcı, farklı bir e-posta adresi girer veya giriş sayfasına yönlendirilerek 
+mevcut hesabı ile giriş yapabilir.
+Bu örnek fikir vermesi açısından kısmi bir örnektir. Tüm senaryoları içermez.
+Senaryo ID UC4 (Furkan Karatekin)
+Senaryo Adı Google İle Giriş Yap
+Ana Aktör Kullanıcı
+Ön Koşullar Kullanıcı bir Google hesabına sahip olmalı
+Hedef Şartlar  Kullanıcı, Google ile giriş yap 
+butonuna tıklar.
+ Kullanıcı, Google hesabı ile kimlik 
+doğrulama işlemi gerçekleştirir.
+ Sistem, kullanıcıyı doğrular ve 
+anasayfaya yönlendirir.
+ Kullanıcı, platforma Google hesabı 
+ile başarılı bir şekilde giriş yapar.
+Ana Başarısı Senaryosu
+1. Kullanıcı, sistemin giriş sayfasını açar.
+2. Kullanıcı, Google ile giriş yap butonuna tıklar.
+3. Sistem, kullanıcıyı Google hesabı ile giriş yapma sayfasına yönlendirir.
+4. Kullanıcı, Google hesabı bilgilerini girer ve kimlik doğrulama işlemini 
+tamamlar.
+5. Google, kullanıcının kimliğini doğrular ve sisteme geri bildirim gönderir.
+6. Sistem, kullanıcıyı doğrular ve platformun anasayfasına yönlendirir.
+7. Kullanıcı, platforma Google hesabı ile başarılı bir şekilde giriş yapmış olur.
+Genişlemeler
+4a: Kullanıcı, Google hesabı bilgilerini yanlış girer.
+Google, bir hata mesajı gösterir ve kullanıcıyı bilgileri yeniden girmesi için yönlendirir.
+Kullanıcı, bilgileri doğru bir şekilde girer ve kimlik doğrulama işlemini tamamlar.
+4b: Kullanıcı, Google hesabı kimlik doğrulamasını iptal eder.
+Sistem, kullanıcıyı giriş sayfasına geri yönlendirir.
+Bu örnek fikir vermesi açısından kısmi bir örnektir. Tüm senaryoları içermez.
+Kullanıcı, başka bir giriş yöntemi seçebilir veya işlemi sonlandırabilir.
+5a: Google, kullanıcının kimliğini doğrulayamaz.
+Google, kullanıcıya kimlik doğrulama başarısız olduğunu belirten bir mesaj gösterir.
+Kullanıcı, giriş sayfasına yönlendirilir ve farklı bir giriş yöntemi seçebilir.
+Bu örnek fikir vermesi açısından kısmi bir örnektir. Tüm senaryoları içermez.
+Senaryo ID UC5 (Furkan Karatek’n)
+Senaryo Adı Profili düzenle
+Ana Aktör Kullanıcı
+Ön Koşullar Kullanıcı sisteme giriş yapmış olmalı
+Hedef Şartlar  Kullanıcı, profil düzenleme 
+sayfasına erişir.
+ Kullanıcı, istediği profil bilgilerini 
+(ad, soyad, e-posta, profil fotoğrafı 
+vb.) günceller.
+ Kullanıcı, değişiklikleri kaydeder.
+ Sistem, güncellenen bilgileri 
+kaydeder ve kullanıcıya başarılı 
+güncelleme bildirimi gönderir.
+Ana Başarısı Senaryosu
+1. Kullanıcı, profil sayfasına gider.
+2. Kullanıcı, profil düzenle butonuna tıklar.
+3. Kullanıcı, profil düzenleme sayfasına yönlendirilir.
+4. Kullanıcı, düzenlemek istediği profil bilgilerini (ad, soyad, e-posta, profil 
+fotoğrafı vb.) günceller.
+5. Kullanıcı, güncellemeleri kaydetmek için kaydet butonuna tıklar.
+6. Sistem, değişiklikleri doğrular ve bilgileri günceller.
+7. Sistem, kullanıcıya bilgilerin başarıyla güncellendiğini bildiren bir mesaj 
+gösterir.
+8. Kullanıcı, güncellenmiş profil bilgileri ile profil sayfasına yönlendirilir.
+Genişlemeler
+4a: Kullanıcı, geçersiz bir bilgi girer (örneğin, geçersiz bir e-posta formatı).
+Bu örnek fikir vermesi açısından kısmi bir örnektir. Tüm senaryoları içermez.
+Sistem, kullanıcıya hatalı giriş yapıldığını ve doğru formatın kullanılması gerektiğini 
+bildirir.
+Kullanıcı, hatalı girdiği bilgiyi düzeltir ve güncellemeye devam eder.
+5a: Sistemde teknik bir sorun meydana gelir ve güncellemeler kaydedilemez.
+Sistem, kullanıcıya teknik bir hata olduğunu ve daha sonra tekrar denemesi gerektiğini 
+bildirir.
+Kullanıcı, daha sonra güncellemeyi tekrar deneyebilir veya destek için sistem yöneticisi 
+ile iletişime geçebilir.
+6a: Kullanıcı, değişiklikleri kaydettikten sonra düzenlemelerden memnun kalmaz.
+Kullanıcı, profil düzenlemelerini geri almak veya daha fazla değişiklik yapmak için 
+tekrar profil düzenleme sayfasına gidebilir.
+Bu örnek fikir vermesi açısından kısmi bir örnektir. Tüm senaryoları içermez.
+Senaryo ID UC6 (Furkan Karatekin)
+Senaryo Adı Profili Sil
+Ana Aktör Kullanıcı
+Ön Koşullar Kullanıcı sisteme giriş yapmış ve hesabını 
+silmek istiyor olmalı
+Hedef Şartlar  Kullanıcı, hesap silme seçeneğine 
+erişir.
+ Kullanıcı, hesabını silmek istediğini 
+onaylar.
+ Sistem, hesabı kalıcı olarak siler ve 
+kullanıcıya bir onay mesajı 
+gönderir.
+ Kullanıcı, sistemden çıkarılır ve 
+anasayfaya yönlendirilir.
+Ana Başarısı Senaryosu
+1. Kullanıcı, ayarlar veya hesap yönetimi sayfasına gider.
+2. Kullanıcı, hesap silme veya profil silme seçeneğine tıklar.
+3. Sistem, kullanıcıdan hesabı silmek istediğinden emin olup olmadığını 
+onaylamasını ister.
+4. Kullanıcı, silme işlemini onaylar.
+5. Sistem, kullanıcının hesabını kalıcı olarak siler ve ilişkili tüm verileri temizler.
+6. Sistem, kullanıcıya hesabının başarıyla silindiğine dair bir onay mesajı gösterir.
+7. Kullanıcı, sistemden çıkarılır ve giriş sayfasına yönlendirilir.
+Genişlemeler
+3a: Kullanıcı, hesabı silme işleminden vazgeçer.
+Kullanıcı, iptal seçeneğine tıklar.
+Sistem, kullanıcıyı önceki sayfaya yönlendirir ve hesap silme işlemi gerçekleşmez.
+Bu örnek fikir vermesi açısından kısmi bir örnektir. Tüm senaryoları içermez.
+4a: Sistemde teknik bir sorun meydana gelir ve hesap silinemez.
+Sistem, kullanıcıya teknik bir hata olduğunu bildirir ve daha sonra tekrar denemesi 
+gerektiğini önerir.
+Kullanıcı, sorunun çözülmesini bekler veya destek için sistem yöneticisi ile iletişime 
+geçebilir.
