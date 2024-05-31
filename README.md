@@ -18,7 +18,6 @@ Bu proje, kullanıcıların çeşitli yemek tariflerini bulabileceği, paylaşab
 3. [Veritabani Diyagrami](https://github.com/furkankaratekin/nefisyemekler-clone-project/blob/main/Veritaban%C4%B1Diyagram%C4%B1.jpeg)
 4. [Durum Diyagrami](https://github.com/furkankaratekin/nefisyemekler-clone-project/blob/main/UseCaseDiyagram2.pdf)
 5. [Durum Senaryoları](https://github.com/furkankaratekin/nefisyemekler-clone-project/blob/main/DurumSenaryoları.md)
-
    
 
 
