@@ -1,5 +1,13 @@
 ##    React Çatısı kullanılarak yapıldı .
 
+# Ali Atabin Tasarımlar #
+1. Giriş Yap
+2. Çıkış Yap
+3. 2FA
+4. .....
+5. .....
+6. ....
+
       # Furkan Karatekin Tasarımlar #
    1.Giriş Yap
    2.Çıkış Yap
