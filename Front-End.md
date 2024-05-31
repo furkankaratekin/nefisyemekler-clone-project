@@ -9,13 +9,14 @@
 6. Profili Sil
 
      
-# Gamze Bacak Tasarımlar #
-1.Tarifleri Listele
-2.Tarifleri Kategorilere Göre Listele
-3.Tarifleri Ara
-4.Tarif Ekle
-5.Tarifi Sil
-6.Tarif Güncelle
+# Ali Atabin Tasarımlar #
+1. Tarifleri Listele
+2. Giriş Yap
+3. 2FA
+4. .....
+5. .....
+6. ....
+
 
 # Gamze Bacak Tasarımlar #
 1.Tarifleri Listele
