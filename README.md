@@ -7,7 +7,8 @@ Bu proje, kullanıcıların yemek tariflerini bulabileceği, paylaşabileceği v
 Bu proje, kullanıcıların çeşitli yemek tariflerini bulabileceği, paylaşabileceği ve favorilere ekleyebileceği bir platform oluşturmayı hedeflemektedir. Kullanıcılar, tarifleri kategorilere göre listeleyebilir, arayabilir ve kendi tariflerini ekleyebilirler. Ayrıca, kullanıcılar favori tariflerini bir defterde toplayabilir ve belirli kriterlere göre menüler oluşturabilirler.
 
 ## Projenin Kategorisi: Yemek
-## Referans Uygulama: Nefis Yemek Tarifleri
+## Referans Uygulama: https://www.nefisyemektarifleri.com/
+## Uygulama Adresi: https://nefisyemekler-clone-project-4.onrender.com/
 ## Grup Adı: The Mentalist
 ## Proje Ekibi: Furkan Karatekin, Gamze Bacak, Alperen Aktuğ, Hakan Işık
 
