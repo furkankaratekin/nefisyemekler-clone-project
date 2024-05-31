@@ -7,24 +7,23 @@
 4. Google ile Giriş Yap
 5. Profil Düzenle
 6. Profili Sil
-
      
-# Ali Atabin Tasarımlar #
+# Gamze Bacak Tasarımlar #
 1. Tarifleri Listele
+2. Tarifleri Kategorilere Göre Listele
+3. Tarifleri Ara
+4. Tarif Ekle
+5. Tarifi Sil
+6. Tarif Güncelle
+
+# Alperen Aktuğ Tasarımlar #
+1. Kayıt Ol
 2. Giriş Yap
 3. 2FA
 4. .....
 5. .....
 6. ....
 
-
-# Gamze Bacak Tasarımlar #
-1.Tarifleri Listele
-2.Tarifleri Kategorilere Göre Listele
-3.Tarifleri Ara
-4.Tarif Ekle
-5.Tarifi Sil
-6.Tarif Güncelle
 
 # Alperen Aktuğ Tasarımlar #
    1.Tarifin Kalorisi
