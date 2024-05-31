@@ -17,50 +17,22 @@
 6. Tarif Güncelle
 
 # Alperen Aktuğ Tasarımlar #
-1. Kayıt Ol
-2. Giriş Yap
-3. 2FA
-4. .....
-5. .....
-6. ....
-
-
-# Alperen Aktuğ Tasarımlar #
-   1.Tarifin Kalorisi
-   2.Tarifin Hazırlanışı
-   3.Tarifin Videolu Hazırlanışı
-   4.Deftere Ekle(favorilere ekle)
-   5.Defterden Kaldır(favorilerden kaldır)
-   6.Menüler
+1. Tarifin Kalorisi
+2. Tarifin Hazırlanışı
+3. Tarifin Videolu Hazırlanışı
+4. Deftere Ekle(favorilere ekle)
+5. Defterden Kaldır(favorilerden kaldır)
+6. Menüler
 
 # Hakan Işık Tasarımlar #
-   1.Bugün Ne Hazırlasam ?
-   2.Popüler Menüler
-   3.Tarif Defterim
-   4.Tarife Yorum Yap
-
-   # Ali Atabin Tasarımlar #
-1. Kayıt Ol
-2. Giriş Yap
-3. 2FA
-4. .....
-5. .....
-6. ....
+1. Bugün Ne Hazırlasam ?
+2. Popüler Menüler
+3. Tarif Defterim
+4. Tarife Yorum Yap
+5. Tarife Yapılan Yorumu Güncelle
+6. Tarife Yaptığın Yorumu Sil
 
 
-# Ayşe Toputut Tasarımlar #
-1. ....
-2. ....
-3. ....
-4. ....
-5. ....
-6. ....
-   5.Tarife Yapılan Yorumu Güncelle
-   6.Tarife Yaptığın Yorumu Sil
-   
-   1.Giriş Yap
-   2.Çıkış Yap
-   3.Üye ol
-   4.Google ile Giriş Yap
-   5.Profil Düzenle
-   6.Profili Sil
+
+
+
