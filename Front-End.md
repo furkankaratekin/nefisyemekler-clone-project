@@ -1,6 +1,6 @@
 ##    React Çatısı kullanılarak yapıldı .
 
-## Furkan Karatekin Tasarımlar
+# Furkan Karatekin Tasarımlar #
    1.Giriş Yap
    2.Çıkış Yap
    3.Üye ol
@@ -8,7 +8,7 @@
    5.Profil Düzenle
    6.Profili Sil
 
-## Gamze Bacak Tasarımlar
+# Gamze Bacak Tasarımlar #
    1.Tarifleri Listele
    2.Tarifleri Kategorilere Göre Listele
    3.Tarifleri Ara
@@ -16,7 +16,7 @@
    5.Tarifi Sil
    6.Tarif Güncelle
 
-## Alperen Aktuğ Tasarımlar
+# Alperen Aktuğ Tasarımlar #
    1.Tarifin Kalorisi
    2. Tarifin Hazırlanışı
    3.Tarifin Videolu Hazırlanışı
@@ -24,7 +24,7 @@
    5.Defterden Kaldır(favorilerden kaldır)
    6.Menüler
 
-## Hakan Işık Tasarımlar
+# Hakan Işık Tasarımlar #
    1.Bugün Ne Hazırlasam ?
    2.Popüler Menüler
    3.Tarif Defterim
