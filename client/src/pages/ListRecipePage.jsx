@@ -17,4 +17,4 @@ const ListRecipePage = () => {
   );
 }
 
-export default ListRecipePage
+export default ListRecipePage

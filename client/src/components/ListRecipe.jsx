@@ -15,11 +15,11 @@ const ListRecipe = () => {
   const handleAddToFavorites = async () => {
     try {
       await axios.post(
-        https://nefisyemekler-clone-project.onrender.com/api/recipe/favorites/${userData._id}/add,
+        `https://nefisyemekler-clone-project.onrender.com/api/recipe/favorites/${userData._id}/add`,
         { recipeId },
         {
           headers: {
-            Authorization: Bearer ${token},
+            Authorization: `Bearer ${token}`,
             "Content-Type": "application/json",
           },
         }
@@ -32,26 +32,25 @@ const ListRecipe = () => {
     }
   };
 
-const handleRemoveFromFavorites = async () => {
-  try {
-    await axios.delete(
-      https://nefisyemekler-clone-project.onrender.com/api/recipe/favorites/${userData._id}/remove,
-      {
-        headers: {
-          Authorization: Bearer ${token},
-          "Content-Type": "application/json",
-        },
-        data: { recipeId }, // Burada data anahtarını kullanıyoruz
-      }
-    );
-    toast.success("Başarı ile defterden kaldırıldı");
-    setIsAdded(false);
-  } catch (error) {
-    console.error("Error removing from favorites:", error);
-    toast.error("Defterden kaldırma işlemi başarısız oldu");
-  }
-};
-
+  const handleRemoveFromFavorites = async () => {
+    try {
+      await axios.delete(
+        `https://nefisyemekler-clone-project.onrender.com/api/recipe/favorites/${userData._id}/remove`,
+        {
+          headers: {
+            Authorization: `Bearer ${token}`,
+            "Content-Type": "application/json",
+          },
+          data: { recipeId }, // Burada `data` anahtarını kullanıyoruz
+        }
+      );
+      toast.success("Başarı ile defterden kaldırıldı");
+      setIsAdded(false);
+    } catch (error) {
+      console.error("Error removing from favorites:", error);
+      toast.error("Defterden kaldırma işlemi başarısız oldu");
+    }
+  };
 
   const handleClick = () => {
     if (isAdded) {
@@ -64,7 +63,7 @@ const handleRemoveFromFavorites = async () => {
   useEffect(() => {
     axios
       .get(
-        https://nefisyemekler-clone-project.onrender.com/api/recipe/${recipeId}
+        `https://nefisyemekler-clone-project.onrender.com/api/recipe/${recipeId}`
       )
       .then((response) => {
         setRecipe(response.data);

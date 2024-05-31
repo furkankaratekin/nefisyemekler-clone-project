@@ -8,7 +8,7 @@ const ContactPage = () => {
     <>
       <Header></Header>
       <p className="text-center mt-20 font-serif text-3xl">
-        Bizimle Ýletiþime Geçin !{" "}
+        Bizimle ï¿½letiï¿½ime Geï¿½in !{" "}
       </p>
       <MapContact></MapContact>
       <div className='mt-4'>
@@ -18,4 +18,4 @@ const ContactPage = () => {
   );
 }
 
-export default ContactPage
+export default ContactPage

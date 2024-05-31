@@ -29,7 +29,7 @@ const CategoryRecipe = () => {
         <div className="flex flex-wrap -m-4">
           {recipes.map((recipe) => (
             <div key={recipe._id} className="lg:w-1/4 sm:w-1/2 p-4">
-              <Link to={/list-recipe/${recipe._id}}>
+              <Link to={`/list-recipe/${recipe._id}`}>
                 <div className="relative group">
                   <img
                     alt={recipe.name}

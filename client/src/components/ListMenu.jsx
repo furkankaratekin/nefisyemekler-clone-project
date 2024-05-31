@@ -10,24 +10,24 @@ const ListMenu = () => {
   useEffect(() => {
     axios
       .get(
-        https://nefisyemekler-clone-project.onrender.com/api/menu/${menuId}
+        `https://nefisyemekler-clone-project.onrender.com/api/menu/${menuId}`
       )
       .then((response) => {
         setMenu(response.data);
-        console.log(response.data); // Menü bilgilerini konsola yazdýr
+        console.log(response.data); // MenÃ¼ bilgilerini konsola yazdÄ±r
 
-        // Menüdeki her tarif ID'si için tarif bilgilerini çek
+        // MenÃ¼deki her tarif ID'si iÃ§in tarif bilgilerini Ã§ek
         response.data.recipe_ids.forEach((recipeId) => {
           axios
             .get(
-              https://nefisyemekler-clone-project.onrender.com/api/recipe/${recipeId}
+              `https://nefisyemekler-clone-project.onrender.com/api/recipe/${recipeId}`
             )
             .then((recipeResponse) => {
               setRecipes((prevRecipes) => ({
                 ...prevRecipes,
                 [recipeId]: {
                   name: recipeResponse.data.name,
-                  picture: recipeResponse.data.picture, // Görsel URL'si
+                  picture: recipeResponse.data.picture, // GÃ¶rsel URL'si
                 },
               }));
             })
@@ -58,14 +58,14 @@ const ListMenu = () => {
         <div className="flex flex-wrap -m-4">
           {menu.recipe_ids.map((recipeId, index) => (
             <div key={recipeId} className="lg:w-1/4 sm:w-1/2 p-4">
-              <Link to={/list-recipe/${recipeId}}>
+              <Link to={`/list-recipe/${recipeId}`}>
                 <div className="relative group">
                   <img
-                    alt={recipes[recipeId]?.name || Tarif-${index + 1}}
+                    alt={recipes[recipeId]?.name || `Tarif-${index + 1}`}
                     className="w-full h-full object-cover object-center opacity-85 group-hover:opacity-100 transition-opacity duration-300 rounded-lg"
                     src={
                       recipes[recipeId]?.picture ||
-                      https://via.placeholder.com/150
+                      `https://via.placeholder.com/150`
                     }
                   />
                   <div className="absolute inset-0 flex items-center justify-center">
@@ -83,4 +83,4 @@ const ListMenu = () => {
   );
 };
 
-export default ListMenu;
+export default ListMenu;

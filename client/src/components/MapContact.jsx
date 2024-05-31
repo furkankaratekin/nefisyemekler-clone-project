@@ -96,4 +96,4 @@ const MapContact = () => {
   );
 };
 
-export default MapContact;
+export default MapContact;

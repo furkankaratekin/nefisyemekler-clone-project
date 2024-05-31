@@ -26,7 +26,7 @@ const Gallery = ({ searchQuery }) => {
         <div className="flex flex-wrap -m-4">
           {filteredRecipes.map((recipe) => (
             <div className="lg:w-1/4 sm:w-1/2 p-4" key={recipe._id}>
-              <Link to={/list-recipe/${recipe._id}}>
+              <Link to={`/list-recipe/${recipe._id}`}>
                 <div className="flex relative">
                   <img
                     alt="gallery"
@@ -52,4 +52,4 @@ const Gallery = ({ searchQuery }) => {
   );
 };
 
-export default Gallery;
+export default Gallery;
